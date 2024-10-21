@@ -156,3 +156,8 @@ public class DBConnectionUtil {
 
 5. **Running Unit Tests**: 
    - Run the tests in `test/ProjectRepositoryImplTest.java` using your IDE or any testing framework like JUnit.
+
+<br>
+
+---
+### **Thank you for exploring the Project Management System, and we hope it serves as a valuable learning tool and foundation for your future projects! 😃**
