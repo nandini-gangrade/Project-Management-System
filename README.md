@@ -126,7 +126,7 @@ public class DBConnectionUtil {
 ### Software Requirements
 
 - **JDK 11 or higher**: Ensure that the correct version of Java is installed.
-- **SQL Server**: You need SQL Server installed with a database named `PMS`. The server name should be `DESKTOP-NVORRLQ\SQLEXPRESS`.
+- **SQL Server**: You need SQL Server installed.
 - **SQL Server Management Studio (SSMS)**: To execute the `schema.sql` and `seed.sql` files to set up the database schema and seed data.
 
 ### Steps for Running on Another Computer
@@ -137,10 +137,10 @@ public class DBConnectionUtil {
    git clone <your-github-repo-url>
    cd Project Management System
    ```
-
+   
 2. **Database Setup**: 
    - Open SSMS and execute the `schema.sql` and `seed.sql` files located in the `db/` folder.
-   - Ensure the database name is set to `PMS` and the server name is `DESKTOP-NVORRLQ\SQLEXPRESS`. You can modify these details in the `DBPropertyUtil.java` file if needed.
+   - Ensure the database name and the server name is set. You can modify these details in the `DBPropertyUtil.java` file.
 
 3. **MySQL Connector**: 
    - Ensure the `mysql-connector-j-9.1.0.jar` file is in the project directory for database connectivity.
